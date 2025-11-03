@@ -9,7 +9,7 @@ const Hero: React.FC = () => {
 
   return (
     <section className="min-h-screen flex flex-col justify-center items-center text-center px-6 pt-24 pb-12">
-      <div className="relative w-44 h-44 sm:w-56 sm:h-56 md:w-72 md:h-72 lg:w-80 lg:h-80 mx-auto mb-10">
+      <div className="relative w-[18rem] h-[18rem] sm:w-[22rem] sm:h-[22rem] md:w-[26rem] md:h-[26rem] lg:w-[32rem] lg:h-[32rem] mx-auto mb-16">
         <div className="absolute top-1/2 left-1/2 h-[96%] w-[96%] -translate-x-[50.5%] -translate-y-1/2 rounded-full animate-pulse-glow-outer" />
         <img
           src={LOGO_URL}
@@ -17,10 +17,10 @@ const Hero: React.FC = () => {
           className="relative z-10 w-full h-full object-contain animate-fade-in"
         />
       </div>
-      <h1 className="font-serif text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold uppercase tracking-widest text-brand-beige text-center animate-fade-in-up delay-200">
+      <h1 className="font-serif text-3xl sm:text-4xl md:text-6xl lg:text-8xl font-bold uppercase tracking-widest text-brand-beige animate-fade-in-up delay-200">
         {translations.hero_title[language]}
       </h1>
-      <p className="mt-4 text-base sm:text-lg md:text-xl lg:text-2xl text-brand-gold-light tracking-wide text-center px-4 animate-fade-in-up delay-400">
+      <p className="mt-6 text-base sm:text-lg md:text-xl lg:text-2xl text-brand-gold-light tracking-wider animate-fade-in-up delay-400">
         {translations.hero_subtitle[language]}
       </p>
       <style>{`
