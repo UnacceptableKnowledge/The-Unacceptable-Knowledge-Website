@@ -31,7 +31,7 @@ const App: React.FC = () => {
 
   return (
     <LanguageProvider>
-      <div className="bg-brand-dark-secondary font-sans text-brand-beige min-h-screen">
+      <div className="bg-brand-dark-secondary font-sans text-brand-beige min-h-screen mx-auto max-w-screen-lg px-4 md:px-6">
         <Header navLinks={navLinks} onNavLinkClick={scrollToSection} />
         <main>
           <Hero />
