@@ -19,16 +19,16 @@ const Research: React.FC = () => {
         <div className="w-full max-w-[92rem] mx-auto mb-16">
           <Divider />
         </div>
-        <h2 className="font-serif text-4xl font-bold text-center mb-12 text-brand-gold uppercase tracking-[0.2em]">
+        <h2 className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-serif font-bold uppercase tracking-widest text-brand-gold text-center mb-8">
           {translations.research_title[language]}
         </h2>
         
         <div className="max-w-[92rem] mx-auto">
           <div className="bg-brand-dark/30 border-2 border-brand-gold/20 rounded-xl p-8 md:p-12 transition-all duration-300 hover:shadow-gold-glow hover:border-brand-gold">
-            <h3 className={`font-serif text-2xl md:text-3xl font-bold text-brand-gold-light mb-8 text-center leading-snug ${language === 'en' ? 'tracking-wider' : ''}`}>
+            <h3 className="text-base sm:text-lg md:text-2xl lg:text-3xl font-semibold text-brand-gold text-center mb-4 leading-snug sm:leading-relaxed">
               {translations.research_guide_title[language]}
             </h3>
-            <div className="text-xl md:text-2xl space-y-6 text-brand-beige text-justify leading-relaxed">
+            <div className="text-base sm:text-lg md:text-xl lg:text-2xl text-brand-beige text-justify leading-snug sm:leading-relaxed md:leading-relaxed">
               <p>
                 {translations.research_p1[language]}
               </p>
