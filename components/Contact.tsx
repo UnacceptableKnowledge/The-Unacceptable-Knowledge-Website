@@ -20,7 +20,7 @@ const Contact: React.FC = () => {
         <div className="w-full max-w-[92rem] mx-auto mb-16">
           <Divider />
         </div>
-        <h2 className="font-serif text-4xl font-bold text-center mb-12 text-brand-gold uppercase tracking-[0.2em]">
+        <h2 className="font-serif text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-8 md:mb-12 text-brand-gold uppercase tracking-[0.12em] md:tracking-[0.2em]">
           {translations.contact_title[language]}
         </h2>
         
