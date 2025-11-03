@@ -37,7 +37,7 @@ const Contact: React.FC = () => {
                 id="name"
                 placeholder={translations.contact_form_name[language]}
                 required
-                className="w-full bg-brand-dark/50 border-2 border-brand-gold/20 rounded-md px-4 py-3 text-brand-beige placeholder-brand-beige/50 focus:ring-2 focus:ring-brand-gold focus:border-brand-gold hover:border-brand-gold focus:outline-none transition-all duration-300"
+                className="w-full bg-brand-dark/50 border-2 border-brand-gold/20 rounded-md px-4 py-3 text-brand-beige placeholder-brand-beige/50 focus:ring-2 focus:ring-brand-gold focus:border-brand-gold hover:border-brand-gold focus:outline-none transition-all duration-300 mb-3"
               />
             </div>
             <div>
@@ -48,7 +48,7 @@ const Contact: React.FC = () => {
                 id="email"
                 placeholder={translations.contact_form_email[language]}
                 required
-                className="w-full bg-brand-dark/50 border-2 border-brand-gold/20 rounded-md px-4 py-3 text-brand-beige placeholder-brand-beige/50 focus:ring-2 focus:ring-brand-gold focus:border-brand-gold hover:border-brand-gold focus:outline-none transition-all duration-300"
+                className="w-full bg-brand-dark/50 border-2 border-brand-gold/20 rounded-md px-4 py-3 text-brand-beige placeholder-brand-beige/50 focus:ring-2 focus:ring-brand-gold focus:border-brand-gold hover:border-brand-gold focus:outline-none transition-all duration-300 mb-3"
               />
             </div>
             <div>
