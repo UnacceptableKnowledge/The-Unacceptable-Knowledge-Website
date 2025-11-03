@@ -64,7 +64,7 @@ const Contact: React.FC = () => {
             </div>
             <button
               type="submit"
-              className="w-full bg-brand-gold text-brand-dark font-bold py-3 px-6 rounded-md hover:bg-brand-gold/80 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-brand-gold"
+              className="w-full bg-brand-gold text-brand-dark font-bold uppercase py-3 px-6 rounded-md hover:bg-brand-gold/80 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-brand-gold"
             >
               {translations.contact_form_submit[language]}
             </button>
